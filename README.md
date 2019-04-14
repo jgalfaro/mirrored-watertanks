@@ -1,3 +1,8 @@
+# Credit
+
+This is a fork from https://github.com/dry3ss/IEC-608670-5-104-Grovepi
+Initial code (and all the credit) goes to https://github.com/dry3ss/
+
 # IEC-608670-5-104-Grovepi
 Simple Java server/client apps to make a complete SCADA IEC/104 demonstrator using:
 - 2 (or 1) Raspberry Pi+Grovepi connected with one ultrasound GrovePi distance sensor each
