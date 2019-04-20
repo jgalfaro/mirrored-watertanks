@@ -1,0 +1,20 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Time Domain
+%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+A=[ -a/( alpha*2*sqrt(h0) ) 0 a/( alpha*2*sqrt(h0) )  0;0   -a/( alpha*2*sqrt(h0) ) 0 a/( alpha*2*sqrt(h0) ) ; 0   0 -a/( alpha*2*sqrt(h0) ) 0  ; 0   0 0 -a/( alpha*2*sqrt(h0) ) ]
+
+B=[ gamma1*k/alpha 0; 0 gamma2*k/alpha; 1-gamma1*k/alpha 0; 0 1-gamma2*k/alpha; ]
+
+C=[ 1 0 0 0; 0 1 0 0; 0 0 1 0; 0 0 0 1 ]
+
+D=[0 0; 0 0; 0 0; 0 0]
+
+Initial conditions = 0
+
+Sample time = -1
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Frequency Domain
+%%%%%%%%%%%%%%%%%%%%%%%%%% 
